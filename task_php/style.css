@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f8f9fc;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 700; 
+    text-align: center;
+    color: #444;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, select {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #030308; 
+    border-radius: 8px;
+    background-color: rgb(233, 233, 233); 
+    color: rgb(22, 22, 22); 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+input::placeholder, select::placeholder {
+    color: #6c63ff; 
+    font-size: 14px;
+    font-style: italic;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #b13931; 
+    box-shadow: 0 0 8px rgba(54, 136, 161, 0.6); 
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px black inset !important;
+    -webkit-text-fill-color: white !important;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #6c63ff;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4d45c4;
+}
+
+/* Table Styles */
+table {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #6c63ff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+table th, table td {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1ff;
+    transition: background-color 0.2s ease-in;
+}
+
+td {
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Preformatted text for file content */
+pre {
+    background: #f8f9fc;
+    padding: 15px;
+    border-left: 4px solid #6c63ff;
+    overflow-x: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #444;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
