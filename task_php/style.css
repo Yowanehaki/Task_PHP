@@ -54,7 +54,7 @@ input, select {
     border: 2px solid #030308; 
     border-radius: 8px;
     background-color: rgb(233, 233, 233); 
-    color: rgb(197, 197, 197);  
+    color: rgb(19, 18, 18); 
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
 }
