@@ -54,7 +54,7 @@ input, select {
     border: 2px solid #030308; 
     border-radius: 8px;
     background-color: rgb(233, 233, 233); 
-    color: rgb(22, 22, 22); 
+    color: rgb(197, 197, 197);  
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
 }
@@ -69,11 +69,6 @@ input:focus, select:focus {
     outline: none;
     border-color: #b13931; 
     box-shadow: 0 0 8px rgba(54, 136, 161, 0.6); 
-}
-
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px black inset !important;
-    -webkit-text-fill-color: white !important;
 }
 
 button {
